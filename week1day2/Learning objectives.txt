@@ -1,0 +1,25 @@
+uses descriptive names (vs. ambigous, vague, ex. 'data')
+uses accurate names (ex. 'person_array' that is actually an object)
+uses appropriate tone in names (ie. no jokes, profanity, cute)
+can print a value to stdout / the console
+can generate a random number between 0 and 1
+can generate a random integer between given bounds (ex. 10 and 30)
+can handle arguments passed-in via commandline
+can explain what is meant by "scope"
+can explain how scope works in their language
+can list and explain the different ways to declare variables (let vs. var vs. const vs. none)
+can list common types of errors and what causes them to occur
+can use errors to narrow down source of problem
+can read and understand a stack trace and use it to narrow down the source of a problem
+can do println-debug information to narrow down source of problem
+can debug and fix simple programs written by someone else
+can explain difference between different kinds of errors: syntax, compile-time, run-time, math, hang, crash
+reproduces problem before attempting to fix it
+identifies source of problem before making changes
+verifies that problem is fixed before making other changes
+can explain what "type coercion" is
+can explain how type coercion operates in their language
+understands the difference between == and ===
+compares using === not ==
+can explain what is meant by truthy and falsey vs true and false
+can identify what is considered truthy and falsey in their language

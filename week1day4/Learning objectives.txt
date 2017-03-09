@@ -1,0 +1,29 @@
+can explain what is meant by a 'callback function'
+can explain what is meant by 'first-class functions'
+can use higher-order functions (ie. functions that expect callbacks)
+can create functions create higher-order-functions (ie. functions that expect callbacks)
+can explain what is meant by a 'higher-order function' and give examples of when they could be used
+can explain the difference between "first-class-functions" and procedures and methods
+can explain the implications of a languages supporting "first-class functions"
+can use an each loop to iterate through values in an array (each, forEach)
+can filter an array to only contain certain values (filter)
+can use `map` with an array
+can create "first-class functions"
+can sort simple values in an array (sort)
+can explain why you cannot use JS sort on its own to sort an array of numbers
+can sort values in an array using a custom comparator (sort)
+can explain what is meant by "scope"
+can explain how scope works in their language
+can explain what a "closure" is
+can give an example of what a closure could be used for
+can identify a closure in a piece of code
+can write code that makes use of a closure
+can explain "unit testing"
+can explain benefits/tradeoffs of unit testing
+can list and explain the differences between common levels of testing
+can explain "integration testing"
+can explain benefits/tradeoffs of "integration testing"
+can explain functional testing
+can explain benefits/tradeoffs of functional testing
+can explain "mocks" and "stubs", and why they are used
+can explain purpose, benefits/tradeoffs of "automated testing"

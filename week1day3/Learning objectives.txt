@@ -1,0 +1,17 @@
+can explain what an "associative array" is and what it is used for
+can list the primitive datatypes in their language
+can explain the difference between primitive values and object pointers
+can explain what is meant by "primitive datatypes of a language"
+can create an associative array
+can access an element in an associative array
+can list all the keys of an associative array
+can use a `for` loop to iterate through the keys and values of an associative array
+uses hasOwnProperty when looping through keys/values of an object
+can create conditional statements combining multiple logical and comparison operators
+can solve simple problems
+can identify the inputs and outputs required given a simple problem
+can explain "call stack"
+can explain what `this` means
+can reason about the value of `this` in various contexts
+can make use of `this`
+can use Arrays to solve problems

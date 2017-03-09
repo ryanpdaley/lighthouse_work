@@ -1,0 +1,35 @@
+Learning objectives:
+can explain differences between a "github repo" and a "gist"
+can explain why gists are used instead of repos
+can fork a gist
+can clone a gist
+can explain what "gists" are and why they are used
+can handle arguments passed-in via commandline
+can convert a string into a number
+can use node to execute a file
+can print a value to stdout / the console
+can access an element in an array by index ([])
+can perform basic arithmetic on numbers (+, -, /, *, %)
+can create a gist
+can use node to execute a file with parameters
+can refactor existing code
+can define a procedure
+can conditionally execute code using if/elseif/else
+can create conditional statements combining multiple logical and comparison operators
+can use common comparison operators
+can use common logical operators
+can solve simple problems
+can use an each loop to iterate through values in an array (each, forEach)
+can use a ternary operator
+can use for loops
+can implement fizzbuzz
+can identify the inputs and outputs required given a simple problem
+can write pseudocode to solve a simple problem
+can explain "pseudocode" and why it is used
+can concatenate strings
+can replace a subset of a string
+can add an element to the end of an array (push)
+can break down a string into individual characters
+can explain what is meant by "DRY"
+can write code that is DRY
+can identify non-DRY code

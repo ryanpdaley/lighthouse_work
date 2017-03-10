@@ -1,0 +1,15 @@
+plits code appropriately into multiple modules/namespaces
+can explain benefits of seperating code into multiple modules
+can write modules and require them from other files
+can explain what a "library" is and why they are used
+can explain the difference between libraries and modules
+organizes program code across multiple files
+can make use of a library
+can explain what "npm" is and why it is used
+can explain what "package.json" is for
+can use npm to install global libraries
+can use npm to install project libraries
+can explain what is meant by "versioning"
+can explain what is meant by "semantic versioning"
+can explain benefits of "semantic versioning"
+can use Arrays to solve problems

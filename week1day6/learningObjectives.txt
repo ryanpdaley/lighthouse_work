@@ -1,0 +1,112 @@
+can explain what a URL is and what it is used for
+  - URL = Uniform Resource Locator; the address of a given unique resource on the Web.
+can list and explain the elements of a URL (protocol, domain, port, resource path, query parameters, anchor)
+  - ex: http://www.example.com:80/path/to/myfile.html?key1=value1&key2=value2#SomewhereInTheDocument
+    - protocol = 'http://'
+    - domain = 'www.example.com'
+    - port = ':80'
+    - resource path = '/path/to/myfile.html'
+    - querty parameters = '?key1=value1&key2=value2'
+    - anchor = '#SomewhereInTheDocument'
+can explain what is meant by 'semantic urls'
+  - use words with inherent meaning that can be understood by anyone, regardless of their technical know-how
+can explain the HTTP protocol and a basic HTTP transaction:
+  - HTTP: Hypertext Transfer Protocol - defines what the browser and web server say to each other.
+  - 1) Parsing the URL: convert URL to protocol, server, and request-URI
+  - 2) Sending the request: Browser->Server:  "GET /request-URI HTTP/version"
+  - 3) Server responds: When the server receives the HTTP request it locates the appropriate document and returns it:
+    HTTP/1.0 200 OK
+    Server: Netscape-Communications/1.1
+    Date: Tuesday, 25-Nov-97 01:22:04 GMT
+    Last-modified: Thursday, 20-Nov-97 10:44:53 GMT
+    Content-length: 6372
+    Content-type: text/html
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+    <HTML>
+    ...followed by document content...
+can list and explain the uses of commonly used HTTP request headers (User-Agent, Referer, Authorization)
+  - User-Agent: string identifying the requesting client's information
+  - Referer: field telling the server where the user came from (previous website, etc.)
+  - Authorization: username / password field
+can list common HTTP status codes, what each means, and when each should be used
+  - 1xx: Informational (Experimental)
+  - 2xx: Successful {'200': 'OK'}
+  - 3xx: Redirection {'301': 'Moved permanently', '302': 'Moved temporarily', '304: 'Not modified'}
+  - 4xx: Client error {'400': 'Bad request', '401': 'Unauthorized', '403': 'Forbidden', '404': 'Not found'}
+  - 5xx: Server error {'500': 'Internal server error', '501': 'Not implemented', '503': 'Service unavailable'}
+can list and explain the uses of commonly used HTTP response headers (Location, Server, Content-length, Content-type, Content-encoding, Expires, Last-modified)
+  - Location = tells the user agent where the resource it requested can be found (URL)
+  - Server = tells the user agent which web server is used
+  - Content-length = the size of the resource, in bytes
+  - Content-type = describes the file format of the resource
+  - Content-encoding = indicates the resource has been coded in some way and must be decoded before use
+  - Expires = prevents browsers from caching the resource beyond the given date
+  - Last-modified = tells the browser when the resource was last modified
+can explain what is meant by HTTP being a 'stateless protocol' and its implications wrt. development
+  - is a communications protocol that treats each request as an independent transaction that is unrelated to any previous request so that the communication consists of independent pairs of request and response.
+  - advantage: no need to dynamically allocate storage to deal with conversations in progress
+  - disadvantage: it may be necessary to include additional information in every request, and this extra information will need to be interpreted by the server.
+can explain what "JSON" is and why it is used
+  - JSON = JavaScript Object Notation: A collection of name/value pairs and an ordered list of values
+can identify the data types supported by JSON
+can convert a json string to data (parse)
+  - JSON.parse()
+can convert data to a json string (stringify)
+  - JSON.stringify()
+can explain what is meant by "serialization" and "deseralization" and why it is used
+  - serialization = converts objects into string (or something that can be stored)
+  - deserialization = converts string to objects / data structures
+can manually format some data as JSON
+  - { a: 1, b:2, foo: 'bar'}
+can explain what is meant by "media type" and why it is used
+  - media type (also MIME type and content type) is a two-part identifier for file formats and format contents transmitted on the Internet.
+can list common media types (application/json, text/html, text/css, ...)
+  application/javascript
+  application/json
+  application/x-www-form-urlencoded
+  application/xml
+  application/zip
+  application/pdf
+  audio/mpeg
+  audio/vorbis
+  multipart/form-data
+  text/css
+  text/html
+  text/plain
+  image/png
+  image/jpeg
+  image/gif
+can explain what "curl" is and why it used
+can use curl to issue simple GET requests
+can use curl to show headers for a request
+can use curl to issue simple POST requests
+can use curl for non-trivial requests
+can explain the difference between synchronous and asynchronous methods and the implications for working with node
+can create a file
+can write data to a file
+can read data from a file
+can delete a file
+can append data to a file
+can get metadata about a file
+can handle arguments passed-in via commandline
+can print a value to stdout / the console
+can explain the difference between binary and text encoding
+can list common text encoding types (ASCII, UTF-8, UTF-16)
+can explain why specifying the encoding is necessary when reading or writing files
+specifies an encoding when reading or writing text files
+can explain what is meant by "character encoding"
+can explain the basics of common text encoding types (ASCII, UTF-8, UTF-16)
+can explain what a "stream" is and why they are used
+can read data from input stream
+can write data to output stream
+can pipe data from an input stream to an output stream
+can explain the role that DNS plays in the web stack
+can explain what "domain names" are
+can list common DNS record types (A, NS, MX, CNAME) and explain their function
+can explain what "DNS" is and why it is used
+can explain how domain names are resolved to IP addresses
+can explain what "dig" is and why it is used
+can use dig to perform a dns trace
+can understand the result of a dig dns trace
+can explain what is meant by "API" and why they are used

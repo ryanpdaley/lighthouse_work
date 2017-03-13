@@ -1,0 +1,8 @@
+can read data from input stream
+can write code to make an HTTP request
+can use the "http" package to make an http request
+can make use of a library
+can use the "request" package to make a get request
+can use curl to issue simple GET requests
+can use curl for non-trivial requests
+can explain what is meant by "rate limit" and why they are used

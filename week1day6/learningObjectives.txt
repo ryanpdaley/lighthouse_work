@@ -78,17 +78,25 @@ can list common media types (application/json, text/html, text/css, ...)
   image/jpeg
   image/gif
 can explain what "curl" is and why it used
+  - cURL is a command line utility that is used to make HTTP requests to a given URL and it outputs the response
 can use curl to issue simple GET requests
 can use curl to show headers for a request
 can use curl to issue simple POST requests
 can use curl for non-trivial requests
+-----------
 can explain the difference between synchronous and asynchronous methods and the implications for working with node
+  - synchronous = waits for one step to finish before moving on to the next one.
+  - asynchronous = possible to move on to the next step before the current one is finished.
 can create a file
+  - fs.open(path, 'w',)
 can write data to a file
+  - fs.open(path, 'w',)
 can read data from a file
+  - fs.open(path, 'r',)
 can delete a file
 can append data to a file
 can get metadata about a file
+  - fs.stat(path)
 can handle arguments passed-in via commandline
 can print a value to stdout / the console
 can explain the difference between binary and text encoding
@@ -97,9 +105,35 @@ can explain why specifying the encoding is necessary when reading or writing fil
 specifies an encoding when reading or writing text files
 can explain what is meant by "character encoding"
 can explain the basics of common text encoding types (ASCII, UTF-8, UTF-16)
+-----------
 can explain what a "stream" is and why they are used
+  - Streams are objects that let you read data from a source or write data to a destination in continuous fashion.
 can read data from input stream
+  var fs = require("fs");
+  // Create a readable stream
+  var readerStream = fs.createReadStream('input.txt');
+  // Set the encoding to be utf8.
+  readerStream.setEncoding('UTF8');
+  // Handle stream events --> data, end, and error
+  readerStream.on('data', function(chunk) {
+    data += chunk;
+  });
+  readerStream.on('end',function(){
+    console.log(data);
+  });
 can write data to output stream
+  var fs = require("fs");
+  var data = 'Simply Easy Learning';
+  // Create a writable stream
+  var writerStream = fs.createWriteStream('output.txt');
+  // Write the data to stream with encoding to be utf8
+  writerStream.write(data,'UTF8');
+  // Mark the end of file
+  writerStream.end();
+  // Handle stream events --> finish, and error
+  writerStream.on('finish', function() {
+  console.log("Write completed.");
+  });
 can pipe data from an input stream to an output stream
 can explain the role that DNS plays in the web stack
 can explain what "domain names" are

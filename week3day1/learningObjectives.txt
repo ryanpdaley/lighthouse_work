@@ -1,0 +1,34 @@
+can fork a repo
+can clone a remote repo
+can use npm to install project libraries
+can explain how `npm start` knows how to start your project
+can explain how HTML, CSS and JS interact
+can explain what "HTML" is and its role in web application development
+can list and explain the core syntactical elements of HTML (elements, tags, attributes, content)
+can explain what "CSS" is and its role in web application development
+can list common tags, their attributes and their purpose/function (html, head, title, link, body, h1, p, div, span, ul, ol, li, a)
+can identify the various ways that css can be added to HTML (inline, link, @import, <style>, in head, in body) and implications
+can explain what is meant by "DOM"
+can explain the difference between "ids" and "classes" and when each should be used
+uses ids and classes appropiately
+can explain how elements are layed-out out in the float flow
+can explain different techniques to contain float elements (overflow, clearfix)
+can use the overflow or clearfix technique to contain float elements
+can list and explain the behaviour of different positioning modes
+can position elements using different positioning modes
+can explain what the "z-index" is used for and how it behaves
+can use the "z-index" property to change the stacking order of elements
+can style an HTML document with CSS
+can list and explain the core syntactical elements of CSS (selectors, properties, values)
+can list the common selectors, their syntax and their function (type, .class, #id)
+can explain how inheritance works in CSS
+can explain what is meant by "CSS specifity"
+can explain what factors influence specificity (inline, id, attribute/class/pseudo-class, name/pseudo-element)
+can explain how CSS specifity is calculated
+can list the various forms that can be used to specify colors
+can specify colors in various forms
+can explain the difference between setting GET and POST as the form method wrt. the resulting HTTP request
+can use curl to issue simple POST requests
+can create a form to send a POST request
+can explain "application/x-www-form-urlencoded" encoding
+can use CDT to debug network requests

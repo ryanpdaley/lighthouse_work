@@ -1,0 +1,14 @@
+can explain "relational databases" and why they are used
+can explain how data is organized in relational databases (tables, columns, rows)
+can draw an entity relationship diagram (ERD)
+can explain difference of basic relationships and when each should be used
+can explain what "primary keys" are and why they are used
+can explain what is meant by an "entity relationship diagram" and why they are used
+can list and explain the components of an ERD (entities, attributes, primary keys, relationships, cardinality)
+can list and explain the 4 line types in "crow's foot notation"
+can read an ERD
+can list and explain the common types of relationships (one-to-one, one-to-many, many-to-many)
+can explain what "foreign keys" are and why they are used
+can explain "database normalization", purpose, tradeoffs
+can explain what is meant by a "join / junction" table and why they are used
+can explain what "SQL" is and why it is used

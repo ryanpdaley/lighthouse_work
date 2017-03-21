@@ -1,0 +1,7 @@
+can explain what "REST" is and why it is used
+can explain what is meant by a "resource" in "REST" and give examples
+can describe the conventions defined by REST for singular, plural and nested resources
+can identify whether a set of routes follows the REST convention
+can explain what "method override" is, why it is necessary and how it works
+can create HTML forms and modify a server to make use of method-override
+uses method override instead of avoiding RESTful routes

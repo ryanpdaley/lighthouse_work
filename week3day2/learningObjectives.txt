@@ -1,0 +1,29 @@
+can explain how HTML, CSS and JS interact
+can explain what "HTML" is and its role in web application development
+can explain what "CSS" is and its role in web application development
+can explain what "javascript" is and its role in web development
+can identify the various ways that js can be added to HTML, (inline, inside of <script>, <script src>, in head, end of body) and the implications
+can explain what is meant by "DOM"
+can use a debugger to narrow down source of problem (breakpoint, stepping, watch expressions)
+can use CDT to set a DOM modification breakpoint
+can use CDT to set an XHR breakpoint
+can use CDT to set an exception breakpoint
+can use CDT to set a js breakpoint
+can use CDT to set a conditional js breakpoint
+can trigger a js breakpoint in CDT from their source code (debugger;)
+can navigate a breakpoint using CDTs step over/in/out functionality
+can use CDT's js debugger functionality to debug a frontend js application
+can explain what is meant by a "breakpoint" and why they are used
+can list common DOM events and when they occur (click, load, resize, ...)
+can attach DOM event listeners and handle DOM events in vanilla js
+can remove DOM event listeners
+can list common properties found in a DOM event object
+can explain the DOM event lifecycle
+can explain "bubbling" and "capturing"
+can set an event handler to trigger during the capture phase
+can explain what stopPropagation() does and why it is used
+can use stopPropagation()
+can explain what preventDefault() does and why it is used
+can use preventDefault()
+can explain what is meant by "event delegation"
+can use event delegation to listen to events

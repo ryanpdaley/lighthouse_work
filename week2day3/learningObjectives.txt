@@ -1,0 +1,11 @@
+can create an http server using a high level library (ex. express, sinatra)
+can explain what "cookies" are and why they are used
+can explain how "cookies" work
+can explain how "cookies" can be used to allow users to login, visit pages, and log out
+can make use of cookies in an HTTP server
+can use curl to issue simple POST requests
+can use curl for non-trivial requests
+can use curl to issue a request with a cookie
+can use CDT to view cookies
+can use "cookie-parse" middleware to set and retrieve cookies
+can explain the domain limitations when setting a cookie

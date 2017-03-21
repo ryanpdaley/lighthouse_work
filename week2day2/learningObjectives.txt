@@ -1,0 +1,32 @@
+can explain what is meant by "string interpolation" and why it is used
+can interpolate variables into a string (string interpolation)
+can explain what is meant by "template literals" and why they are used
+can use template literals to interpolate values in a string
+uses template literals (instead of concatenation)
+can explain how scope works in their language
+can list and explain the different ways to declare variables (let vs. var vs. const vs. none)
+uses the appropriate form of variable declaration (const by default, let if needs rebinding, var for legacy)
+can create an http server using a low level library (ex. http)
+can create an http server using a high level library (ex. express, sinatra)
+can write code to make an HTTP request
+can write code to handle an HTTP response
+can use the "http" package to make an http request
+can use the "http" package to handle an http request
+can use "express" to create a web server
+can explain what "ejs" does and what it is used for
+can explain the difference between <% %> and <%= %> in ejs
+can create and use ejs templates in a web application
+can configure and use a server-side template engine to generate HTML
+can explain what "template engines" are and why they are used
+can explain what "partials" are and why they are used
+can use partials
+uses partials when appropriate
+can describe the conventions defined by REST for singular, plural and nested resources
+can explain what is meant by "CRUD"
+can use labels in an HTML form
+can make use of common input field types
+can create a form to send a POST request
+can explain what is meant by an HTML "form" and what they are used for
+can explain the purpose of the action attribute in a form
+can explain the purpose of the method attribute in a form
+can explain how a HTTP redirect works and when it could be used

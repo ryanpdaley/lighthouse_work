@@ -1,0 +1,48 @@
+can explain what data-attributes are and why they are used
+can make use of data-attributes in html and js (set, retrieve)
+makes use of data attributes when appropriate (instead of storing data in class names or rel attributes)
+can set, access and modify data attributes
+can explain the differences between jQuery's data() and using vanilla js
+can explain what is meant by "responsive web design"
+can list and explain various techniques that can be used to achieve "responsive web design" (media queries, viewport units, relative font units, flexbox)
+can use various techniques to achieve "responsive web design"
+can explain what "media queries" are and why they are used
+can list common "media features" that can be used to filter styles in "media queries" (width, height, min-*, max-*)
+can explain the two different ways to use "media queries" (embedded, and via seperate files)
+can use "media queries" to apply conditional CSS styles
+can list common css unit types and how each works (px, em, rem, vh, vw, %)
+can explain what "flexbox" is and why it is used
+can explain the basics of how "flexbox" is used
+can give examples of layouts that flexbox makes easier
+can use "flexbox"
+can explain what is meant by "cloud computing" (outsourcing of part of web stack)
+can explain what is meant by "SaaS", "PaaS", and "IaaS", and distinguish between them
+can explain what "heroku" is and why it is used
+can configure and deploy a web application to heroku
+can explain what a "Procfile" is and why it is used
+can deploy a new version to heroku (`git push heroku`)
+can explain what the "heroku toolbelt" is and why it is used
+can explain how the "heroku toolbelt" determines which application a command applies to
+can list the common commands used when working with the heroku toolbelt
+can download and install the heroku toolbelt
+can log into heroku toolbelt (`heroku login`)
+can create an application using the heroku toolbelt (`heroku create`)
+can access application logs using the heroku toolbelt (`heroku logs`)
+can open a running application using the heroku toolbelt (`heroku open`)
+can check running dynos using the heroku toolbelt (`heroku ps`)
+can scale the number of dynos using the heroku toolbelt (`heroku ps:scale`)
+can run an application locally using the heroku toolbelt (`heroku local`)
+can start a remote console using the heroku toolbelt (`heroku run _`)
+can list config vars using the heroku toolbelt (`heroku config`)
+can set config vars using the heroku toolbelt (`heroku config:set`)
+can provision a postgres database using the heroku toolbelt
+can modify an application to connect to a heroku-hosted postgres database (using env vars)
+can connect to a remote database repl (`heroku pg:psql`)
+can explain what a "heroku addon" is
+can list addons enabled on an application using the heroku toolbelt (`heroku addons`)
+can add an addon using the heroku toolbelt (`heroku addons:create`)
+can open an addon's config using the heroku toolbelt (`heroku addons:open`)
+can explain what is meant by "environment variables" and why they are used
+can set environment variables
+can explain how heroku determines how to run your application
+can access environment variables

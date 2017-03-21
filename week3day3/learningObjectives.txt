@@ -1,0 +1,6 @@
+can explain what is meant by "ajax" and why it is used
+can explain what is meant by "responsive web design"
+can use "ajax" to make asynchronous requests
+can use $.ajax to make asynchronous HTTP requests
+can send json data using "ajax"
+can use preventDefault()

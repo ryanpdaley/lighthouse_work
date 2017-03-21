@@ -1,0 +1,15 @@
+can explain what is meant by "event-driven architecture" and why it is used
+can explain how "event-driven architecture" applies to web development
+can explain "bubbling" and "capturing"
+can explain the DOM event lifecycle
+can set an event handler to trigger during the capture phase
+can explain what stopPropagation() does and why it is used
+can use stopPropagation()
+can explain what preventDefault() does and why it is used
+can use preventDefault()
+can explain what "jQuery" is and why it is used (browser API standardization, etc.)
+can explain why $(document).onLoad(...) is used
+can use $("selector") to select elements on the page
+can use jQuery to create event handlers for common events
+can access and modify css properties
+can list common properties found in a DOM event object

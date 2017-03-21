@@ -1,0 +1,19 @@
+can explain what "databases" are and why they are used
+can explain what a "document store" is and why it is used
+can list various "document store" databases, differences (mongodb, couchdb, rethinkdb)
+can explain differences and tradeoffs between SQL / NoSQL databases (document store, kv store, search, EAV(t) store, column store, object store)
+can create and insert a document
+can insert multiple documents simultaneously
+can explain what is meant by a "document" in a document store
+can explain what "mongodb" is and why it is used
+can explain what is meant by a "collection" and why they are used
+can explain what the "mongo shell" is and why it is used
+can list common "mongo shell" commands
+can use the "mongo shell" to perform common database operations
+can create a database via the mongo shell
+can query for certain documents (find)
+can start the mongo shell with an immediate connection to a database
+can start the mongo shell with no database connection
+can switch to a different database (use)
+can explain what is meant by "seeding" a database
+can perform CRUD operations with mongodb using the mongodb js library

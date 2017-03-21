@@ -1,0 +1,2 @@
+can make use of cookies in an HTTP server
+can use "cookie-parse" middleware to set and retrieve cookies

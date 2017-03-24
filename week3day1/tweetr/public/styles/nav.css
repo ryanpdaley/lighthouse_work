@@ -1,0 +1,32 @@
+#nav-bar {
+    width: 100%;
+    height: 80px;
+    padding: 0 2em;
+    background-color: #00a087;
+}
+
+#nav-bar .logo {
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+
+#nav-bar .header {
+  padding: 0 0 0 10px;
+  font-size: 2em;
+  line-height: 80px;
+  color: #e8fdff;
+  vertical-align: middle;
+}
+
+#nav-bar .btn-compose {
+  float: right;
+  /*font-weight: bold;*/
+  font-size: large;
+  border-style: solid;
+  margin: 5px 20px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  opacity: 0.5;
+}

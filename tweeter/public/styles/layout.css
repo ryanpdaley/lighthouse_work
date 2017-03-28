@@ -1,0 +1,114 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+
+body {
+  margin: 0;
+  color: #244751;
+  background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+main.container {
+    margin: 0 auto;
+    width:450px;
+    padding: 2em 0;
+}
+
+.new-tweet {
+  display: none;
+}
+.tweets {
+  display: inline;
+  width: auto;
+}
+
+.tweets .tweet {
+  margin: 10px 2em;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  border-color: #cccccc;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.tweet header {
+  background-color: #eee;
+  height: 60px;
+  border-style: solid;
+  border-radius: 7px 7px 0 0;
+  border-width: 1px;
+  border-color: #eee;
+}
+
+.tweet .avatar {
+  margin: 5px;
+  width: 50px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  vertical-align: middle;
+}
+
+.tweet .userName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tweet .acctName {
+  float: right;
+  padding: 20px;
+}
+
+.tweet .tweetBodyContainer {
+  height: 150px;
+  padding: 30px 20px;
+}
+
+.tweet .tweetText {
+  font-size: large;
+}
+
+.tweet footer {
+  height: 40px;
+  border-top: solid;
+  border-top-width: 1px;
+  border-top-color: #eee;
+}
+
+.tweet footer .timeStamp {
+  display: inline;
+  margin: 20px;
+  font-size: small;
+}
+
+.tweet footer .footerButtons {
+  display: inline;
+  margin: 0 20px;
+  float:right;
+  color: #00a087;
+  font-size: 2em;
+}
+
+.tweet footer .footerButtons a {
+  text-decoration: none;
+  color: #00a087;
+}
+

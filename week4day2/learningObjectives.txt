@@ -1,0 +1,11 @@
+can explain what "pg" is and why it is used
+can perform CRUD operations on a postgresSQL database using "pg"
+does not commit databases, configuration files or sensitive data
+can explain what "knex" is and why it is used
+can perform CRUD operations on a SQL database using knex.js
+can use chaining to build complex database queries using knex.js
+can create migrations using knex.js
+can explain what is meant by "method chaining"
+can create tables/schemas using knex.js
+can create transactions using knex.js
+can seed data using knex.js
